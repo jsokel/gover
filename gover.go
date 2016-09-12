@@ -1,4 +1,8 @@
 package gover
 
 // The most simple go package ever
-const gover string = "1.0"
+const ver string = "1.0"
+
+func GetVer() string {
+	return ver
+}
